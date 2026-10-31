@@ -1,0 +1,36 @@
+# Python environments and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Local state, credentials, reviewer blinding material
+.local/
+review_admin/
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite*
+
+# Generated reports and review outputs
+reports/
+review_packets/
+review_decisions/
+
+# Editor and operating-system files
+.DS_Store
+.vscode/
+.idea/
+
+# Test/build caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
